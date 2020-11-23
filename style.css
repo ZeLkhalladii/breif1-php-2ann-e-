@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://images.pexels.com/photos/3758132/pexels-photo-3758132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+}
+
+/* page index */
+
+h3 {
+    margin-top: 65px;
+    margin-left: 50px;
+    color: #875928;
+    font-size: 40px;
+}
+.con{
+    border: aliceblue;
+    background-color:#d1d5d7; 
+     border-radius:5px;
+      padding:16px;
+       margin-top:6px;
+       width: 300px;
+}
+img{
+   width: 245px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.btn.btn-success{
+background-color: brown;
+border-color: brown;
+margin-top: 15px;
+}
+
+/* register form */
+#frmRegistration{
+    margin-top: 150px;
+}
+.form-group{
+
+    margin-top: 10px;
+}
+.form-control{
+    height: 35px;
+    width: 230PX;
+    border: 0px;
+    border-radius: 5px;
+}
+.form-horizontal{
+    background-color: rgb(148, 144, 140);
+    width: 300px;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 10px
+    ;
+}
+@media (min-width:766px){
+    .con{
+        font-size:12px;
+        border: aliceblue;
+        background-color:#f1f1f1; 
+        border-radius:5px;
+        width: 300px;
+        margin-left: 120px;
+    }
+   
+}
+@media (max-width:767px){
+    .con{
+        font-size:12px;
+        border: aliceblue;
+        background-color:#f1f1f1; 
+        border-radius:5px;
+        width: 300px;
+        margin-left: 80px;
+     
+    }
+    h3{
+        margin-right: 300px;    }
+}
+@media (min-width:575px){
+
+    h3{
+        margin-right: 50px;    }
+}
